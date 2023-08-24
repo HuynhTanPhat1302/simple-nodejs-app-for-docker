@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-    res.send('<h2 style="color: orange; text-align:center">PhatAWS version codebuild with full my attitudes</h2>');
+    res.send('<h2 style="color: orange; text-align:center">PhatAWS From ECS</h2>');
 });
 
 app.listen(PORT, HOST);
